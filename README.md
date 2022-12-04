@@ -7,7 +7,7 @@ This repository hosts code related to the Temporal Mapper project written by Men
 ## Overview 
 
 Here's a schematic (Fig. 3 from the paper) showing how Temporal Mapper operates on a dataset.
-![reconstructed transition network](docs/Figure_3_reconsim.png)
+![reconstructed transition network](docs/Fig3.png)
 
 ## Interface
 
