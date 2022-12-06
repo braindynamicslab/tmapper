@@ -7,18 +7,24 @@ This repository hosts code related to the Temporal Mapper project written by Men
 ## Overview 
 
 Here's a schematic (Fig. 3 from the paper) showing how Temporal Mapper operates on a dataset.
+
 ![reconstructed transition network](docs/Fig3.png)
 
 ## Interface
 
 To run the code, you only need a `(time_frames x nodes)` matrix! Try starting with the code provided in `run_sim.m`. You should get the following image:
+
 ![transition network from sim](docs/sim_res.png)
 
 When running with your own data, you only need to supply two parameters:
 * **k**: locality parameter for kNN graph construction
 * **delta**: distance parameter for performing asymmetric graph compression 
 
-**Dependencies**
+## Generating simulated data
+
+We have provided some helper files to help you generate additional trials of simulated data. See the script in `code/gen_sim.m` for more details.
+
+## Dependencies
 
 The core Temporal Mapper code has been tested on [Matlab R2020b](https://www.mathworks.com/products/new_products/release2020b.html). 
 
