@@ -22,7 +22,9 @@ When running with your own data, you only need to supply two parameters:
 
 ## Generating simulated data
 
-We have provided some helper files to help you generate additional trials of simulated data. See the script in `code/gen_sim.m` for more details.
+We have provided some helper files to help you generate additional trials of simulated data. See the script in `code/gen_sim.m` for more details. If everything runs fine, you should see the following image:
+
+![generated sim data](docs/generated_sim.png)
 
 ## Dependencies
 
